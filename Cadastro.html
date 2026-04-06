@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix Cadastro</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+   
+<body>
+     <header >
+        <div class="logo">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/0/08/Netflix_2015_logo.svg" alt="Netflix" width="120">
+        </div>
+        <nav>
+            <a href="index.html" >Home</a>
+            <a href="Cadastro.html" >Cadastro</a>
+        </nav>
+        
+    </header>
+    <h1>Cadastro</h1>
+    <label for="">Nome</label>
+    <br>
+    <input type="text" id="inputNome" placeholder="Digite o Nome">
+    <br>
+    <label for="">Sobrenome</label>
+    <br>
+    <input type="text" id="inputSobrenome"  placeholder="Digite o Sobrenome">
+    <br>
+    <label for="">Data de Nascimento</label>
+    <br>
+    <input type="date" id="inputData" placeholder="Digite Data de Nascimento">
+    <br>
+    <label for="">RG</label>
+    <br> 
+    <input type="number" id="inputRg" placeholder="Digite o RG">
+    <br>
+    <label for="">Rua</label>
+    <br> 
+    <input type="text" id="inputRua" placeholder="Digite a Rua">
+    <br>
+    <label for="">Bairro</label>
+    <br>
+    <input type="text" id="inputBairro" placeholder="Digite o bairro">
+    <br>
+    <label for="">Número da casa</label>
+    <br>
+    <input type="number" id="inputNumero" placeholder="Digite o número da casa">
+    <br>
+    <label for="">Cidade</label>
+    <br>
+    <input type="text" id="inputCidade" placeholder="Digite a cidade">
+    <br>
+    <label for="">CEP</label>
+    <br>
+    <input type="number" id="inputCep"  placeholder="Digite o CEP">
+    <br>
+    <label for="">Estado</label>
+    <br>
+    <input type="text" id="inputEstado" placeholder="">
+    <br><br>
+    <button class="botao" onclick="logar()">Entrar</button>
+    <p id="erro"></p>
+
+    <script src="script.js"></script>
+
+    <p>Já tem um login?<br><br><a href="index.html">Clique Aqui</a></p>
+</body>
+</html>
