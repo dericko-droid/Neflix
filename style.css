@@ -1,0 +1,37 @@
+body{
+    text-align: center;
+    background-color: #000;
+    color: red;
+}
+input{
+    text-align: center;
+}
+header{
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 20px 5%; 
+    background-color: #6d0000;
+}
+a{
+    text-decoration: none;
+    background-color: #e50914; 
+    color: white; 
+    padding: 7px 17px; 
+    border-radius: 3px; 
+    font-family: Arial; 
+    font-weight: bold;
+}
+.botao{
+    height: 30px;
+    width: 100px;
+    background-color: silver;
+    color: rgb(73, 67, 67);
+    border: #000;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.botao:hover{
+    background-color: rgb(255, 0, 0);
+    color: rgb(0, 0, 0);
+}
